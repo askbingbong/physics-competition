@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="bg">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Всички формули – Физика 9 клас</title>
+<meta name="description" content="Пълен списък с формули за подготовка по физика за 9 клас.">
+<meta name="theme-color" content="#3b5bdb">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="formulas">
+
+<main class="wrap">
+  <h1 class="tt" style="margin-top:20px">📐 Всички формули</h1>
+  <p class="lead"><span id="fcount"></span> формули, подредени по теми. Търси по думи или символи. Натисни „Печат“, за да направиш PDF шпаргал.</p>
+  <input id="q" class="fsearch" type="search" placeholder="Търси: скорост, налягане, Архимед…" autocomplete="off">
+  <div class="chips" id="chips"></div>
+  <div class="cta noprint" style="margin-bottom:8px"><button class="btn" id="printBtn">🖨️ Печат / PDF</button></div>
+
+  <div id="fl"></div>
+  <div id="consts"><h2 class="sec" style="margin-top:28px">Константи и таблични стойности</h2>
+  <div class="tw"><table>
+    <tr><th>Величина</th><th>Стойност</th></tr>
+    <tr><td>Ускорение на свободно падане g</td><td>10 m/s² (9,8 при точни задачи)</td></tr>
+    <tr><td>Скорост на звука във въздух</td><td>340 m/s</td></tr>
+    <tr><td>Скорост на светлината c</td><td>3·10⁸ m/s</td></tr>
+    <tr><td>Плътност на водата</td><td>1000 kg/m³</td></tr>
+    <tr><td>Плътност на леда / въздуха</td><td>900 kg/m³ / 1,29 kg/m³</td></tr>
+    <tr><td>Плътност на алуминий / желязо / мед / олово</td><td>2700 / 7800 / 8900 / 11300 kg/m³</td></tr>
+    <tr><td>Атмосферно налягане</td><td>101 325 Pa ≈ 10⁵ Pa = 760 mmHg</td></tr>
+    <tr><td>Специфична топлина на водата</td><td>4200 J/(kg·K)</td></tr>
+    <tr><td>Специфична топлина на топене на леда</td><td>3,3·10⁵ J/kg</td></tr>
+    <tr><td>Специфична топлина на изпарение на водата</td><td>2,26·10⁶ J/kg</td></tr>
+    <tr><td>Гравитационна константа G</td><td>6,67·10⁻¹¹ N·m²/kg²</td></tr>
+    <tr><td>Константа на Кулон k</td><td>9·10⁹ N·m²/C²</td></tr>
+    <tr><td>Елементарен заряд e</td><td>1,6·10⁻¹⁹ C</td></tr>
+    <tr><td>Радиус / маса на Земята</td><td>6,4·10⁶ m / 6·10²⁴ kg</td></tr>
+  </table></div></div>
+  <p id="none" class="note hide">Няма намерени формули. Опитай с друга дума.</p>
+</main>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
